@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer Proyecto </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header>
+        <h1>"Animatrix - <em>Buenos Aires Talento Tech 2024</em>"</h1>
+        <h2>Geek Market Place - Front-end JS - V.01</h2>
+        <img src="https://giffiles.alphacoders.com/127/12775.gif" alt="GIF animado" height="200" width="450">
+     
+         <nav>
+            <ul><b> <!-- Opcion solicitada -->
+               <li class="fa-solid fa-skull-crossbones"><a href="./index.html" class="menu"> Inicio</a></li>
+               <li class="fa-solid fa-dice"><a href="./productos.html" class="menu"> Productos</a></li>
+               <li class="fa-solid fa-dragon"><a href="./Proveedores.html" class="menu"> Proveedores</a></li>
+               <li class="fa-solid fa-headset"><a href="./contacto.html" class="menu"> Contacto</a></li>
+            </b></ul>
+         </nav>
+     </header>
+     <main>
+      <section>
+        <article>
+            <h4>Consultas</h4>
+            <form action="https://formspree.io/f/xjkbnzjo" method="post" target="_blank">
+             <fieldset>
+              <legend>Completar:</legend>
+              <label for="fname">Nombre:</label>
+              <input type="text" id="fname" name="fname" size="20" maxlength="20"><br><br>
+              <label for="lname">Apellido:</label>
+              <input type="text" id="lname" name="lname" size="20" maxlength="20"><br><br>
+              <label for="Telephone">Telefono:</label>
+              <input type="tel" id="Telephone" name="Telefono" size="16" maxlength="16"><br><br>
+              <label for="Email">Correo electronico:</label>
+              <input type="email" id="Email" name="Correo electronico" size="25" maxlength="50" required><br><br>
+              <label for="Msj">Mensaje:</label>
+              <textarea id="Msj" name="Mensaje:" rows="10" cols="40" placeholder="Indique articulo/caso y sus dudas..." required></textarea><br><br>
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Borrar">
+             </fieldset>
+            </form>
+        </article>
+      </section>
+      <section>
+        <article>
+            <h4>Devoluciones y/o Reclamos</h4>
+            <form action="https://formspree.io/f/xjkbnzjo" method="post" target="_blank">
+             <fieldset>
+              <legend>Completar:</legend>
+                <label for="Dats">Apellido y Nombre:</label>
+                <input type="text" id="Dats" name="Apellido y Nombre" size="50" maxlength="50" required><br><br>
+                <!-- <label for="Reason">Motivo:</label><br>
+                <input type="radio" id="Reason" name="Motivo" value="Devoluciones">Devolución<br>
+                <input type="radio" id="Reason" name="Motivo" value="Reclamos">Reclamo<br><br> -->
+                <label for="Reason">Motivo:</label>
+                <select name="Motivo:" id="Reason">
+                    <option value="Devolución">Devolución</option>
+                    <option value="Reclamo">Reclamo</option>
+                </select><br><br>
+                <label for="Telephone">Telefono:</label>
+                <input type="tel" id="Telephone" name="Telefono" size="16" maxlength="16"><br><br>
+                <label for="Email">Correo electronico:</label>
+                <input type="email" id="Email" name="Correo electronico" size="25" maxlength="50" required><br><br>
+                <label for="Msj">Mensaje:</label>
+                <textarea id="Msj" name="Mensaje:" rows="10" cols="40" placeholder="Fecha, detalles, problematica, contacto/asesor..." required></textarea><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+              </fieldset>
+            </form>
+        </article>
+      </section>
+      <section>
+        <article>
+           <h4><b>Openings historicos</b></h4>
+           <span>
+              <iframe src="https://www.youtube.com/embed/EOuHn6eiyjI?si=R88jeHCTBPUbtlei" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           </span>
+           <span>
+              <iframe src="https://www.youtube.com/embed/V86x1_feLTo?si=xXrGwKKpDVswz8oE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           </span>
+           <span>
+              <iframe src="https://www.youtube.com/embed/Rsv2VkoIpk0?si=_vkyUNF7Ny-ejFn3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           </span>
+           <span>
+              <iframe src="https://www.youtube.com/embed/sh59AvisoZ4?si=qwa-jy-adZxnCZhq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           </span>
+        </article>
+     </section>
+    </main>
+    <br>
+    <footer>
+     <p>Creador Nicolas Alejandro Tello</p>
+    </footer>
+
+</body>
+</html>

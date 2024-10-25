@@ -1,0 +1,100 @@
+/* comentario en CSS */
+body {
+    background-image: url(https://i.pinimg.com/originals/49/32/c9/4932c98a88222575145cbca55264bd92.gif);
+    background-size: cover;
+}
+.agdasima-regular {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    margin: 2px; /*margin establece el margen para los cuatro lados*/
+    padding: 2px; /*padding establece el espacio de relleno*/
+    text-align: center;
+}
+.menu{
+    color: black;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    border: 5px groove black;
+}
+
+.container{
+    flex-direction: row;
+    position: sticky;
+    left: 6%;
+    border: 4px double blue;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 28.5vh;
+    width: 85vw;
+    margin: 2px;
+    padding: 2px;
+}
+
+.container2{
+    flex-direction: row;
+    position: sticky;
+    left: 1.5%;
+    border: 4px double blue;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    height: 29vh;
+    width: 95vw;
+    margin: 2px;
+    padding: 2px;
+}
+
+.item{
+    border: 2px double red;
+    background-color: antiquewhite;
+    color: white;
+    padding: 2px;
+    margin: 1px;
+    height: 28vh;
+    width: 12vw;
+    box-sizing: border-box;
+}
+
+.item2{
+    border: 2px double green;
+    background-color: antiquewhite;
+    color: white;
+    padding: 2px;
+    margin: 1px;
+    width: 10vw;
+    height: 29vh;
+    box-sizing: border-box;
+    flex: 1 1 200px;
+    flex-shrink: 1 1 200px;
+    flex-basis: auto;
+}
+
+footer{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    margin: 2px; /*margin establece el margen para los cuatro lados*/
+    padding: 2px; /*padding establece el espacio de relleno*/
+    text-align: right;
+}
+
+
+h4{
+    margin: 2px;
+    padding: 2px;
+    text-align: left;
+    border: 3px dotted grey;
+    color: black;
+}
